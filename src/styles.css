@@ -1,0 +1,26 @@
+.param-editor {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  padding: 20px;
+}
+
+.param-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.param-field label {
+  min-width: 120px;
+  font-weight: 500;
+}
+
+.param-field input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+} 
